@@ -1,0 +1,380 @@
+.search__main {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    //background-color: blue;
+}
+
+.search__Form {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search__Submit {
+    float: right;
+}
+.search__loc {
+    color: whitesmoke;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    background: url("/img/search_button.svg") center no-repeat;
+    background-color: none;
+}
+button:focus {
+    outline-style: none;
+}
+
+.search__city {
+    font-size: medium;
+    height: 40px;
+    width: 300px;
+    border: 0.05px solid #456174;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgb(228, 227, 227);
+    text-align: center;
+    text-align-last: center;
+    outline-style: none;
+    margin-bottom: 5%;
+}
+
+.businessType_main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+    .businessType_home {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+
+    .businessType_user {
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    }
+    .businessType_link_wrapper {
+        margin-top: 6%; //
+        width: 96%;
+        height: 83%;
+        //align-items: center;
+        margin-bottom: Auto;
+        background: url("/img/EtusivuSM_v2.jpg") center no-repeat;
+        background-size: 130%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .businessType_link {
+        font-style: italic;
+        // margin-top: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+
+        &__shops,
+        &__hangouts,
+        &__wellness,
+        &__services {
+            text-decoration: none;
+            color: rgb(107, 107, 107);
+            font-size: 11pt;
+            line-height: 1.6;
+            font-weight: bold; //normal;
+            cursor: pointer;
+            font-family: "Raleway", sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 83%;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+    }
+}
+
+/***************************************************************************/
+.type__main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    //  background: url("/img/Etusivu_v2.jpg") center no-repeat;
+    background-size: 150%;
+
+    .businessType_nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .businessType_home {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+
+    .businessType_user {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    h2 {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(150, 150, 150);
+        font-family: "Indie Flower", cursive;
+        font-style: italic;
+        font-size: 15pt;
+    }
+}
+
+/*************************** Shops/Hangouts/Wellness/Services ****************/
+
+.type__shopsMain {
+    width: 250px;
+}
+.type__wrapper {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    // background-color: green;
+    p {
+        font-size: 10pt;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .businessName {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 10pt;
+        color: #456174;
+    }
+    .contactAddress {
+        text-transform: capitalize;
+    }
+    hr {
+        border-top: 1px solid #8c8b8b;
+        border-bottom: 2.2px solid rgb(245, 245, 245);
+    }
+}
+
+/************************************************************************************************************************************/
+/************************************************************************************************************************************/
+@media only screen and (min-width: 768px) {
+    .search__main {
+        width: 100%;
+    }
+
+    .search__Form {
+        width: 400px;
+    }
+
+    .search__loc {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+
+    .search__city {
+        font-size: medium;
+        height: 50px;
+        width: 300px;
+        margin-bottom: 5%;
+    }
+
+    .businessType_main {
+        height: 100vh;
+        width: 70vh;
+        background-size: 100%;
+
+        .businessType_home {
+            top: 30px;
+            left: 10px;
+        }
+
+        .businessType_user {
+            top: 30px;
+            right: 10px;
+        }
+        .businessType_link_wrapper {
+            margin-top: 0vh; //
+            width: 100%;
+            height: 88%;
+            background: url("/img/Etusivu_v2.jpg") center no-repeat;
+            background-size: 100%;
+        }
+        .businessType_link {
+            &__shops,
+            &__hangouts,
+            &__wellness,
+            &__services {
+                font-size: 15pt;
+                margin-top: 68%;
+                padding-left: 40px;
+                padding-right: 55px;
+            }
+        }
+    }
+
+    /***************************************************************************/
+    .type__main {
+        height: 100vh;
+        width: 70vh;
+        background-size: 100%;
+
+        .businessType_home {
+            top: 30px;
+            left: 10px;
+        }
+
+        .businessType_user {
+            right: 10px;
+            top: 30px;
+        }
+        h2 {
+            margin-top: 130px;
+            font-size: 25pt;
+        }
+    }
+
+    /*************************** Shops/Hangouts/Wellness/Services ****************/
+    .type__shopsMain {
+        width: 70%;
+    }
+    .type__wrapper {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+        p {
+            font-size: 13pt;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .businessName {
+            font-size: 11pt;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 90%;
+            float: left;
+        }
+    }
+}
+/************************************************************************************************************************************/
+/************************************************************************************************************************************/
+@media only screen and (min-width: 1024px) {
+    .search__main {
+        width: 100%;
+    }
+
+    .search__Form {
+        width: 400px;
+    }
+
+    .search__loc {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+
+    .search__city {
+        height: 50px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 3px 3px rgb(228, 227, 227);
+        margin-bottom: 5%;
+    }
+
+    .businessType_main {
+        height: 100vh;
+        width: 90vh;
+
+        .businessType_home {
+            top: 30px;
+            left: 10px;
+        }
+
+        .businessType_user {
+            top: 30px;
+            right: 10px;
+        }
+        .businessType_link_wrapper {
+            //   margin-top: 9vh; //
+            width: 100%;
+            height: 97%;
+        }
+        .businessType_link {
+            &__shops,
+            &__hangouts,
+            &__wellness,
+            &__services {
+                font-size: 15pt;
+                margin-top: 59%;
+                padding-left: 65px;
+                padding-right: 70px;
+            }
+        }
+    }
+
+    /***************************************************************************/
+    .type__main {
+        height: 100vh;
+        width: 90vh;
+
+        .businessType_home {
+            top: 30px;
+            left: 10px;
+        }
+
+        .businessType_user {
+            right: 10px;
+            top: 30px;
+        }
+        h2 {
+            margin-top: 130px;
+            font-size: 20pt;
+        }
+    }
+
+    /*************************** Shops/Hangouts/Wellness/Services Listing ****************/
+
+    .type__wrapper {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 100%;
+
+        .businessName {
+            font-size: 14pt;
+        }
+
+        hr {
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,562 @@
+.textAnimated {
+    margin-top: 30%;
+    width: 90%;
+    height: 60px;
+    z-index: 1;
+}
+@media only screen and (min-width: 768px) {
+    .textAnimated {
+        margin-top: 30%;
+        width: 85%;
+        height: 60px;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .textAnimated {
+        margin-top: 25%;
+        width: 85%;
+        height: 60px;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#textsentence {
+    animation: textsentence 10s ease-in-out infinite;
+}
+@keyframes textsentence {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#y {
+    animation: y 10s infinite;
+}
+@keyframes y {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    41% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#o1 {
+    animation: o1 10s infinite;
+}
+@keyframes o1 {
+    0% {
+        opacity: 0;
+    }
+    41% {
+        opacity: 0;
+    }
+    42% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#u1 {
+    animation: u1 10s infinite;
+}
+@keyframes u1 {
+    0% {
+        opacity: 0;
+    }
+    42% {
+        opacity: 0;
+    }
+    43% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#r1 {
+    animation: r1 10s infinite;
+}
+@keyframes r1 {
+    0% {
+        opacity: 0;
+    }
+    43% {
+        opacity: 0;
+    }
+    44% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#d1 {
+    animation: d1 10s infinite;
+}
+@keyframes d1 {
+    0% {
+        opacity: 0;
+    }
+    44% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#i1 {
+    animation: i1 10s infinite;
+}
+@keyframes i1 {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    46% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#g1 {
+    animation: g1 10s infinite;
+}
+@keyframes g1 {
+    0% {
+        opacity: 0;
+    }
+    46% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#i2 {
+    animation: i2 10s infinite;
+}
+@keyframes i2 {
+    0% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#t1 {
+    animation: t1 10s infinite;
+}
+@keyframes t1 {
+    0% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#a1 {
+    animation: a1 10s infinite;
+}
+@keyframes a1 {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#l1 {
+    animation: l1 10s infinite;
+}
+@keyframes l1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#b1 {
+    animation: b1 10s infinite;
+}
+@keyframes b1 {
+    0% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#u2 {
+    animation: u2 10s infinite;
+}
+@keyframes u2 {
+    0% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#s1 {
+    animation: s1 10s infinite;
+}
+@keyframes s1 {
+    0% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    54% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#i3 {
+    animation: i3 10s infinite;
+}
+@keyframes i3 {
+    0% {
+        opacity: 0;
+    }
+    54% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#n1 {
+    animation: n1 10s infinite;
+}
+@keyframes n1 {
+    0% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    56% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#e1 {
+    animation: e1 10s infinite;
+}
+@keyframes e1 {
+    0% {
+        opacity: 0;
+    }
+    56% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#s2 {
+    animation: s2 10s infinite;
+}
+@keyframes s2 {
+    0% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    58% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#s3 {
+    animation: s3 10s infinite;
+}
+@keyframes s3 {
+    0% {
+        opacity: 0;
+    }
+    58% {
+        opacity: 0;
+    }
+    59% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#d2 {
+    animation: d2 10s infinite;
+}
+@keyframes d2 {
+    0% {
+        opacity: 0;
+    }
+    59% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#i4 {
+    animation: i4 10s infinite;
+}
+@keyframes i4 {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    61% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#r2_2 {
+    animation: r2_2 10s infinite;
+}
+@keyframes r2_2 {
+    0% {
+        opacity: 0;
+    }
+    61% {
+        opacity: 0;
+    }
+    62% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#e2 {
+    animation: e2 10s infinite;
+}
+@keyframes e2 {
+    0% {
+        opacity: 0;
+    }
+    62% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#c1 {
+    animation: c1 10s infinite;
+}
+@keyframes c1 {
+    0% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 0;
+    }
+    64% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#t2 {
+    animation: t2 10s infinite;
+}
+@keyframes t2 {
+    0% {
+        opacity: 0;
+    }
+    64% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#o2 {
+    animation: o2 10s infinite;
+}
+@keyframes o2 {
+    0% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#r2 {
+    animation: r2 10s infinite;
+}
+@keyframes r2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#y2 {
+    animation: y2 10s infinite;
+}
+@keyframes y2 {
+    0% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 0;
+    }
+    68% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#period {
+    animation: period 10s infinite;
+}
+@keyframes period {
+    0% {
+        opacity: 0;
+    }
+    68% {
+        opacity: 0;
+    }
+    69% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

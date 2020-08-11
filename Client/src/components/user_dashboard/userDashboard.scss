@@ -1,0 +1,801 @@
+.userDashboard__main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  .userDashboard__nav {
+    .businessType_nav {
+      display: flex;
+      flex-direction: row;
+    }
+    .businessType_home {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+    }
+
+    .businessType_user {
+      position: absolute;
+      right: 10px;
+      top: 30px;
+    }
+    h2 {
+      margin-top: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(150, 150, 150);
+      font-family: "Indie Flower", cursive;
+      font-style: italic;
+      font-size: 15pt;
+    }
+  }
+  .userDashboard__wrapper {
+   // margin-top: 0%;
+    width: 96%;
+    height: 47%;
+    //align-items: center;
+    margin-bottom: Auto;
+    background: url("/img/EtusivuSM_v2.jpg") center no-repeat;
+    background-size: 130%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .userDashboard__body {
+    margin-top: 35%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .userDashboard__create,
+  .userDashboard__list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .userB__Register,
+  .userB__List {
+    color: whitesmoke;
+    background-color: #4f6e82;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgb(218, 218, 218);
+    cursor: pointer;
+    margin-bottom: 2%;
+    border: none;
+    font-size: 11pt;
+  }
+}
+
+/******************************* LIST ***********************************/
+.list_Main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  .businessType_nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .businessType_home {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+  .businessType_user {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  h2 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(150, 150, 150);
+    font-family: "Indie Flower", cursive;
+    font-style: italic;
+    font-size: 15pt;
+  }
+}
+
+.list__Owned {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  width: 70%;
+  p {
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .businessName {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #456174;
+  }
+  .contactAddress {
+    text-transform: capitalize;
+  }
+
+  hr {
+      border-top: 1px solid #8c8b8b;
+      border-bottom: 2.2px solid rgb(245, 245, 245);
+  }
+}
+
+.userB_EditInfo,
+.userB_DeleteInfo {
+  font-size: 9pt;
+  margin-top: 10px;
+  color: whitesmoke;
+  background-color: #456174;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px rgb(218, 218, 218);
+  cursor: pointer;
+  margin-bottom: 2%;
+  border: none;
+  text-align: center;
+}
+
+/******************************** USER EDIT ****************************/
+.edit_Main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  .businessType_nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #456174;
+  }
+  .businessType_home {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+
+  .businessType_user {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+
+  h2 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(150, 150, 150);
+    font-family: "Indie Flower", cursive;
+    font-style: italic;
+    font-size: 20pt;
+  }
+}
+
+.edit_FillUp {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px rgb(216, 216, 240);
+  border-radius: 5px;
+  border: 0.5px solid #6690ac;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
+
+  form {
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    h2 {
+      text-align: center;
+      font-size: 13pt;
+      padding-bottom: 5px;
+      color: #456174;
+    }
+    label {
+      color: #456174;
+      font-size: 11pt;
+      margin-bottom: 5px;
+    }
+    input,
+    select {
+      font-size: 10pt;
+      width: 250px;
+      height: 35px;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      border-radius: 5px;
+      border: 0.5px solid #6690ac;
+      outline-style: none;
+    }
+    select {
+      color: rgb(136, 136, 136);
+      font-size: 11pt;
+      text-align: center;
+      text-align-last: center;
+      outline-style: none;
+    }
+
+    .userB_FillUp {
+      color: whitesmoke;
+      background-color: #456174;
+      width: 65px;
+      height: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 2px 2px rgb(218, 218, 218);
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: none;
+    }
+  }
+}
+
+/**************************Fill Up Form*******************************/
+.fillUp_Main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  .businessType_nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #456174;
+  }
+  .businessType_home {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+  .businessType_user {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  h2 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(150, 150, 150);
+    font-family: "Indie Flower", cursive;
+    font-style: italic;
+    font-size: 20pt;
+  }
+}
+.user_FillUp {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px rgb(216, 216, 240);
+  border-radius: 5px;
+  border: 0.5px solid #6690ac;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
+
+  form {
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    h2 {
+      text-align: center;
+      font-size: 13pt;
+      padding-bottom: 5px;
+      color: #456174;
+    }
+    label {
+      color: #456174;
+      font-size: 11pt;
+      margin-bottom: 5px;
+    }
+    input,
+    select {
+      font-size: 10pt;
+      width: 250px;
+      height: 35px;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      border-radius: 5px;
+      border: 0.5px solid #6690ac;
+      outline-style: none;
+    }
+    select {
+      color: rgb(136, 136, 136);
+      font-size: 11pt;
+      text-align: center;
+      text-align-last: center;
+      outline-style: none;
+    }
+    .userB_FillUp {
+      color: whitesmoke;
+      background-color: #456174;
+      width: 65px;
+      height: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 2px 2px rgb(218, 218, 218);
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: none;
+    }
+  }
+}
+
+/***************************************************************************************************************************************/
+/***************************************************************************************************************************************/
+
+@media only screen and (min-width: 768px) {
+  .userDashboard__main {
+    height: 89vh;
+    width: 70vh;
+
+    .userDashboard__nav {
+      .businessType_home {
+        top: 30px;
+        left: 10px;
+      }
+
+      .businessType_user {
+        right: 10px;
+        top: 30px;
+      }
+      h2 {
+        margin-top: 100px;
+        font-size: 20pt;
+      }
+    }
+
+    .userDashboard__wrapper {
+      margin-top: 10%;
+      width: 100%;
+      height: 49%;
+      background: url("/img/Etusivu_v2.jpg") center no-repeat;
+      background-size: 100%;
+    }
+
+    .userDashboard__body {
+      width: 100%;
+      margin-bottom: 0px;
+      margin-top: 20%;
+    }
+    .userDashboard__create {
+      width: 50%;
+    }
+    .userDashboard__list {
+      width: 50%;
+    }
+
+    .userB__Register,
+    .userB__List {
+      width: 90%;
+      height: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 2px 2px rgb(218, 218, 218);
+      margin-bottom: 2%;
+      font-size: 12pt;
+    }
+  }
+
+  /******************************* LIST ***********************************/
+  .list_Main {
+    height: 100vh;
+    width: 70vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+    h2 {
+      margin-top: 100px;
+      font-size: 20pt;
+    }
+  }
+
+  .list__Owned {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 500px;
+    p {
+      font-size: 13pt;
+    }
+
+    .businessName {
+      font-size: 14pt;
+    }
+
+    hr {
+      margin-top: 20px;
+    }
+  }
+
+  .userB_EditInfo,
+  .userB_DeleteInfo {
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
+
+  /******************************** USER EDIT ****************************/
+  .edit_Main {
+    height: 100vh;
+    width: 70vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 20pt;
+    }
+  }
+
+  .edit_FillUp {
+    margin-top: 10vh;
+    margin-bottom: 0;
+    font-size: 10pt;
+    border-radius: 5px;
+    width: 450px;
+    height: 750px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    form {
+      h2 {
+        font-size: 13pt;
+        padding-bottom: 10px;
+      }
+      label {
+        font-size: 12pt;
+        margin-bottom: 50px;
+      }
+      input,
+      select {
+        margin-top: 5px;
+        font-size: 11pt;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+      }
+      select {
+        font-size: 15px;
+      }
+
+      .userB_FillUp {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 2%;
+      }
+    }
+  }
+
+  /**************************Fill Up Form*******************************/
+  .fillUp_Main {
+    height: 100vh;
+    width: 70vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 20pt;
+    }
+  }
+  .user_FillUp {
+    margin-top: 10vh;
+    margin-bottom: 0;
+    font-size: 10pt;
+    border-radius: 5px;
+    width: 400px;
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    form {
+      h2 {
+        font-size: 13pt;
+        padding-bottom: 10px;
+      }
+      label {
+        font-size: 12pt;
+        margin-bottom: 50px;
+      }
+      input,
+      select {
+        font-size: 11pt;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+      }
+      select {
+        font-size: 15px;
+      }
+      .userB_FillUp {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+/***************************************************************************************************************************************/
+/***************************************************************************************************************************************/
+
+@media only screen and (min-width: 1024px) {
+  .userDashboard__main {
+    height: 99vh;
+    width: 90vh;
+
+    .userDashboard__nav {
+      .businessType_home {
+        top: 30px;
+        left: 10px;
+      }
+
+      .businessType_user {
+        right: 10px;
+        top: 30px;
+      }
+      h2 {
+        margin-top: 100px;
+        font-size: 20pt;
+      }
+    }
+    .userDashboard__wrapper {
+      margin-top: 9%;
+      height: 50%;    
+    }
+    .userDashboard__body {
+      width: 100%;
+      margin-bottom: 0px;
+      margin-top: 20%;
+    }
+    .userDashboard__create {
+      width: 50%;
+    }
+    .userDashboard__list {
+      width: 50%;
+    }
+
+    .userB__Register,
+    .userB__List {
+      width: 90%;
+      height: 40px;
+      border-radius: 10px;
+      margin-bottom: 2%;
+      font-size: 12pt;
+    }
+  }
+
+  /******************************* LIST ***********************************/
+  .list_Main {
+    height: 100vh;
+    width: 90vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+    h2 {
+      margin-top: 100px;
+      font-size: 20pt;
+    }
+  }
+
+  .list__Owned {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 500px;
+
+    .businessName {
+      font-size: 14pt;
+    }
+
+    hr {
+      margin-top: 20px;
+    }
+  }
+
+  .userB_EditInfo,
+  .userB_DeleteInfo {
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
+
+  /******************************** USER EDIT ****************************/
+  .edit_Main {
+    height: 100vh;
+    width: 90vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 20pt;
+    }
+  }
+
+  .edit_FillUp {
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 10pt;
+    border-radius: 5px;
+    width: 400px;
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    form {
+      h2 {
+        font-size: 13pt;
+        padding-bottom: 10px;
+      }
+      label {
+        font-size: 12pt;
+        margin-bottom: 50px;
+      }
+      input,
+      select {
+        margin-top: 5px;
+        font-size: 11pt;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+      }
+      select {
+        font-size: 15px;
+      }
+
+      .userB_FillUp {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 2%;
+      }
+    }
+  }
+
+  /**************************Fill Up Form*******************************/
+  .fillUp_Main {
+    height: 100vh;
+    width: 90vh;
+
+    .businessType_home {
+      top: 30px;
+      left: 10px;
+    }
+    .businessType_user {
+      right: 10px;
+      top: 30px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 20pt;
+    }
+  }
+  .user_FillUp {
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 10pt;
+    border-radius: 5px;
+    width: 400px;
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    form {
+      h2 {
+        font-size: 13pt;
+        padding-bottom: 10px;
+      }
+      label {
+        font-size: 12pt;
+        margin-bottom: 50px;
+      }
+      input,
+      select {
+        font-size: 11pt;
+        width: 300px;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      select {
+        font-size: 15px;
+      }
+      .userB_FillUp {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
